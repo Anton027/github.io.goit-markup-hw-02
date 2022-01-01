@@ -1,3 +1,8 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
 /* backgdr-col #E5E5E5, #F5F4FA;
 backgdr-col head #fff
 цвет осн текста #757575
@@ -7,7 +12,7 @@ active col #2196F3
 
 */
 body {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 a {
   text-decoration: none;
@@ -16,20 +21,20 @@ a {
   list-style: none;
 }
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .item-title {
-  color: #212121;
+  color: var(--title-text-color);
 }
 .item-inform {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 /* header start */
 .logo {
   color: #000000;
 }
 .logo-part {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .nav .link {
@@ -37,14 +42,14 @@ a {
 }
 .nav .link:hover,
 .nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .contacts .link {
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* Header end */
 /* Sections start */
@@ -55,10 +60,10 @@ a {
 .menu .btn:hover,
 .menu .btn:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
 /* Hero sect start */
 .hero .btn {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--accent-color);
 }
