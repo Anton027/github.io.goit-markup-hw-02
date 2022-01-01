@@ -1,21 +1,19 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-}
 /* backgdr-col #E5E5E5, #F5F4FA;
 backgdr-col head #fff
 цвет осн текста #757575
 active col #2196F3
 фон героя и футера #2F303A
 фон сеекции #F5F4FA 
-
 */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+
 body {
   color: var(--primary-text-color);
-}
-a {
-  text-decoration: none;
 }
 .list {
   list-style: none;
@@ -30,7 +28,6 @@ a {
 .logo-part {
   color: var(--accent-color);
 }
-
 .nav .link {
   color: #212121;
 }
