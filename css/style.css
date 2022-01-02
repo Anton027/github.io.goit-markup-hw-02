@@ -13,14 +13,14 @@ active col #2196F3
 .logo-part {
   color: var(--accent-color);
 }
-.nav .link {
+.site-nav .link {
   color: #212121;
 }
-.nav .link.current {
+.site-nav .link.current {
   color: var(--accent-color);
 }
-.nav .link:hover,
-.nav .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 .contacts .link {
