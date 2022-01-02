@@ -98,12 +98,12 @@ normal = 400
   font-size: 16px;
   line-height: 1.6;
 }
-.menu .btn {
-  color: #212121;
+.menu-list .btn {
+  color: var(--title-text-color);
   background-color: #f5f4fa;
 }
-.menu .btn:hover,
-.menu .btn:focus {
+.menu-list .btn:hover,
+.menu-list .btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
 }
@@ -133,12 +133,9 @@ normal = 400
   color: var(--primary-text-color);
 }
 footer .logo {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
-  color: #FFFFF;
+  color: #fff;
+  background-color: var(--title-text-color);
 }
