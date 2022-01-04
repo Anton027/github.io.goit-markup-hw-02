@@ -11,45 +11,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav class="site-nav">
-            <a class="logo" lang="en" href="#">
-                <span class="logo-part" lang="en">Web</span>Studio
-            </a>
-            <ul class="list">
+    <header class="page-header">
+        <div class="container">
+            <nav class="site-nav">
+                <a class="logo" lang="en" href="#">
+                    <span class="logo-part" lang="en">Web</span>Studio
+                </a>
+                <ul class="list">
+                    <li class="item">
+                        <a class="link" href="./index.html">
+                            Студия
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link current" href="./portfolio.html">
+                            Портфолио
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="#">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="contacts list">
                 <li class="item">
-                    <a class="link current" href="./index.html">
-                        Студия
+                    <a class="link" href="mailto:info@devstudio.com">
+                        info@devstudio.com
                     </a>
                 </li>
                 <li class="item">
-                    <a class="link" href="./portfolio.html">
-                        Портфолио
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#">
-                        Контакты
+                    <a class="link" href="tel:+380961111111">
+                        +38 096 111 11 11
                     </a>
                 </li>
             </ul>
-        </nav>
-        <ul class="contacts list">
-            <li class="item">
-                <a class="link" href="mailto:info@devstudio.com">
-                    info@devstudio.com
-                </a>
-            </li>
-            <li class="item">
-                <a class="link" href="tel:+380961111111">
-                    +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
+        </div>
     </header>
     <main>
         <section class="hero">
@@ -126,7 +129,7 @@
                 Наша команда
             </h2>
             <ul class="list">
-                <li>
+                <li class="item">
                     <img src="./images/team_card_1.jpg" alt="Игорь" width="270">
                     <h3 class="title">
                         Игорь Демьяненко
@@ -135,7 +138,7 @@
                         Product Designer
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./images/team_card_2.jpg" alt="Ольга" width="270">
                     <h3 class="title">
                         Ольга Репина
@@ -144,7 +147,7 @@
                         Frontend Developer
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./images/team_card_3.jpg" alt="Николай" width="270">
                     <h3 class="title">
                         Николай Тарасов
@@ -153,7 +156,7 @@
                         Marketing
                     </p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./images/team_card_4.jpg" alt="Михаил" width="270">
                     <h3 class="title">
                         Михаил Ермаков
@@ -165,29 +168,31 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a class="logo" lang="en" href="#">
-            <span class="logo-part" lang="en">Web</span>Studio
-        </a>
-        <address>
-            <ul class="address list">
-                <li class="item">
-                    <a class="link" href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
-                        г. Киев, пр-т Леси Украинки, 26
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="link" href="mailto:info@devstudio.com">
-                        info@devstudio.com
-                    </a>
-                </li>
-                <li class="item">
-                    <a class="link" href="tel:+380961111111">
-                        +38 096 111 11 11
-                    </a>
-                </li>
-            </ul>
-        </address>
+    <footer class="page-footer">
+        <div class="container">
+            <a class="logo" lang="en" href="#">
+                <span class="logo-part" lang="en">Web</span>Studio
+            </a>
+            <address>
+                <ul class="address list">
+                    <li class="item">
+                        <a class="link" href="https://goo.gl/maps/qqfPJEeKQyeXZiAr5">
+                            г. Киев, пр-т Леси Украинки, 26
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="mailto:info@devstudio.com">
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="item">
+                        <a class="link" href="tel:+380961111111">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </address>
+        </div>
     </footer>
 </body>
 </html>
