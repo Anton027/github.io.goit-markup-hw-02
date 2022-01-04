@@ -84,9 +84,6 @@ normal = 400
   font-size: 16px;
   line-height: 1.18;
 }
-.our-team a {
-  text-decoration: none;
-}
 .our-team .inform {
   color: var(--primary-text-color);
   font-size: 16px;
