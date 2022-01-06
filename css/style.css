@@ -16,11 +16,15 @@ pading l+r = 15px
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --first-btn-color: #f5f4fa;
+  --main-light-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--main-light-color);
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .list {
   list-style: none;
@@ -38,7 +42,7 @@ body {
 }
 .btn {
   color: var(--title-text-color);
-  background-color: #f5f4fa;
+  background-color: var(--first-btn-color);
   font-family: inherit;
   font-size: 16px;
   line-height: 1.6;
@@ -66,7 +70,8 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.site-nav .link.current {
+.site-nav .link.current,
+.btn-current {
   color: var(--accent-color);
 }
 .site-nav .link:hover,
