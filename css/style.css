@@ -34,7 +34,6 @@ body {
   list-style: none;
 }
 .section-title {
-  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.25;
@@ -50,119 +49,126 @@ body {
 .logo-part {
   color: var(--accent-color);
 }
-/* header start */
+.color {
+  color: var(--title-text-color);
+}
+.hero-btn,
+.filter-btn {
+  font-family: inherit;
+  cursor: pointer;
+}
+.footer-logo,
+.address-link.map,
+.hero-title {
+  color: var(--main-light-color);
+}
+.header-contacts-link,
+.portfolio-link {
+  color: inherit;
+}
+.hero-title,
+.hero-btn,
+.portfolio-subtitle {
+  letter-spacing: 0.06em;
+}
+.hero-title,
+.benefits-subtitle {
+  text-transform: uppercase;
+}
+.nav-link,
+.header-contacts-link {
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.hero,
+.footer {
+  background-color: var(--primary-bg-color);
+}
+.our-team,
+.filter-btn {
+  background: var(--first-btn-color);
+}
+
+.weight {
+  font-weight: 500;
+}
+.filter-btn:hover,
+.filter-btn:focus,
+.btn-current,
+.hero-btn,
+.hero-btn {
+  color: var(--main-light-color);
+  background-color: var(--accent-color);
+}
+.footer-logo,
+.address-link.map,
+.address-link,
+.footer-address,
+.portfolio-link,
+.style {
+  text-decoration: none;
+  font-style: inherit;
+}
+.team-positions,
+.team-name,
+.filter-btn,
+.portfolio-info {
+  font-size: 16px;
+}
+/* header */
 .header-logo,
 .footer-logo {
-  color: var(--logo-text-color);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
 }
-.hero-btn {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.8;
-  letter-spacing: 0.06em;
-  cursor: pointer;
-  color: var(--main-light-color);
-  border: transparent;
+.header-logo {
+  color: var(--logo-text-color);
 }
-.header-contacts-link {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-.nav-link {
-  color: var(--title-text-color);
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.header-contacts-link {
-  text-decoration: none;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
+
 /* Hero sect start */
-.hero {
-  background-color: var(--primary-bg-color);
-}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
   text-align: center;
-  color: var(--main-light-color);
 }
 .hero-btn {
-  color: var(--main-light-color);
-  background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0.06em;
-  text-align: center;
+  border: transparent;
 }
+
 /* Benefits */
 .benefits-subtitle {
-  color: var(--title-text-color);
   font-weight: 700;
   line-height: 1.14;
-  text-transform: uppercase;
 }
+
 /* Our-team */
-.our-team {
-  background: #f5f4fa;
-}
+
+.team-positions,
 .team-name {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-}
-.team-positions {
-  font-size: 16px;
   line-height: 1.18;
 }
 /* filter */
-
 .filter-btn {
-  color: var(--title-text-color);
-  background-color: var(--first-btn-color);
-  font-weight: 500;
-  font-size: 16px;
   line-height: 1.6;
   border: transparent;
   border-radius: 4px;
-  cursor: pointer;
-}
-.filter-btn:hover,
-.filter-btn:focus,
-.btn-current {
-  color: var(--main-light-color);
-  background-color: var(--accent-color);
 }
 /* Portfolio */
-.portfolio-link {
-  font-style: inherit;
-  text-decoration: none;
-  color: var(--title-text-color);
-}
 .portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
 }
 .portfolio-info {
-  color: inherit;
-  font-size: 16px;
   line-height: 1.8;
 }
 .portfolio-list {
@@ -170,19 +176,6 @@ body {
   border: 1px solid var(--border-line-color);
 }
 /* Footer */
-.footer {
-  background: var(--primary-bg-color);
-}
-.footer-address {
-  font-style: inherit;
-}
 .address-link {
-  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-logo,
-.address-link.map {
-  text-decoration: none;
-  color: var(--main-light-color);
-  background-color: var(--second-bg-color);
 }
