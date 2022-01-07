@@ -24,6 +24,7 @@ pading l+r = 15px
   --border-line-color: #eeeeee;
 }
 body {
+  color: var(--primary-text-color);
   background-color: var(--main-light-color);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -59,6 +60,15 @@ body {
   line-height: 1.2;
   text-decoration: none;
 }
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--main-light-color);
+  border: transparent;
+}
 .header-contacts-link {
   font-weight: 500;
   line-height: 1.14;
@@ -72,7 +82,6 @@ body {
   text-decoration: none;
 }
 .header-contacts-link {
-  color: var(--primary-text-color);
   text-decoration: none;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -107,9 +116,6 @@ body {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.benefits-info {
-  color: var(--primary-text-color);
-}
 /* Our-team */
 .our-team {
   background: #f5f4fa;
@@ -121,7 +127,6 @@ body {
   line-height: 1.18;
 }
 .team-positions {
-  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.18;
 }
@@ -149,14 +154,14 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
 }
-.portfolio-title {
+.portfolio-subtitle {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .portfolio-info {
-  color: var(--primary-text-color);
+  color: inherit;
   font-size: 16px;
   line-height: 1.8;
 }
