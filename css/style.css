@@ -151,7 +151,7 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio-item {
-  border: 1px solid #eeeeee;
+  border: 1px solid var(--border-line-color);
 }
 
 .portfolio-link {
